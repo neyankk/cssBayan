@@ -1,0 +1,76 @@
+body {
+    position: relative;
+    height: 980px;
+    background-color: #ffffff;
+}
+
+.header {
+    position: relative;
+    margin-top: -1em;
+    width: 100%;
+    height: 10%;
+    background: #ffffff;
+}
+
+.head {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    position: absolute;
+    max-width: 500px;
+    margin: 20px auto;
+    background: #ffffff;
+}
+
+.line {
+    margin-left: -4em;
+    width: 400%;
+    color: #989898;
+    height: 100%;
+}
+
+.mem_list {
+    margin-top: 0%;
+    list-style-type: none;
+    margin-left: 13em;
+    color: rgb(0, 60, 255);
+    cursor: pointer;
+    width: 60%;
+}
+
+.mem_list:hover {
+    color: rgb(0, 0, 0);
+}
+
+.head_mem {
+    margin-left: -3%;
+    margin-bottom: 2ex;
+    cursor: pointer;
+    font-size: 3ex;
+    margin-top: 2ex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mem-input {
+    -webkit-appearance: none;
+    appearance: none;
+
+    position: absolute;
+}
+
+.mem-input:checked + .img {
+    display: block;
+}
+
+.img {
+    display: none;
+}
+
+.mem-img {
+    margin-left: -1em;
+    max-width: 30em;
+}
